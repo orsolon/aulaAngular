@@ -1,0 +1,23 @@
+<h5>*ngIf</h5>
+
+<!-- mostra somente se houver itens no array cursos -->
+<div *ngIf="cursos.length > 0">
+    Lista de Cursos:
+</div>
+
+<div *ngIf="cursos.length == 0">
+    Não exitem cursos a ser listados
+</div>
+
+<hr>
+
+<!-- Usando Boolean mostra somente se houver itens no array cursos -->
+<div *ngIf="mostrarCursos">
+    Lista de Cursos:
+</div>
+
+<div *ngIf="!mostrarCursos">
+    Não exitem cursos a ser listados
+</div>
+<br>
+<button (click)="onMostrarCursos()">Mostrar e esconder cursos</button>
