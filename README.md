@@ -1,3 +1,12 @@
+
+# commit exercicio 8 
+Adicione um Property Bind no HeaderComponent de forma que o titulo seja definido dinamicamente pelo AppComponent
+
+
+
+
+
+
 # Primeiroprojeto
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
