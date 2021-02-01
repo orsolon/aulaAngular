@@ -2,6 +2,12 @@
 # commit exercicio 8 
 Adicione um Property Bind no HeaderComponent de forma que o titulo seja definido dinamicamente pelo AppComponent
 
+# commit exercicio contador
+Crie um componente de Contador em que você possa incrementar e decrementar um numero
+Esse componente deve receber, via PropertyBind, o valor inicial do contador, e quando esse numero for modificado
+deve também comunicar esta mudança para o componete pai
+
+
 
 
 
