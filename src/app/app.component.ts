@@ -8,5 +8,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   
   tituloASerUSado = 'Seja bem-vindo! =)';
+
+  constructor() {
+    
+  }
+
+  onValorAtualizadoNoContador(novoValor) {
+    console.log('onValorAtualizadoNoContador', novoValor)
+  }
   
 }

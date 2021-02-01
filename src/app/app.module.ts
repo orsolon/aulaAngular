@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { DiretivaNgifComponent } from './diretiva-ngif/diretiva-ngif.component';
+import { ExercicioContadorComponent } from './exercicio-contador/exercicio-contador.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { DiretivaNgifComponent } from './diretiva-ngif/diretiva-ngif.component';
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    DiretivaNgifComponent
+    DiretivaNgifComponent,
+    ExercicioContadorComponent
   ],
   imports: [
     BrowserModule

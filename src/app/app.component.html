@@ -1,3 +1,9 @@
 <app-header [title]="tituloASerUSado"></app-header>
 
+<app-exercicio-contador>
+    [valor]="10"
+    (valorMudou)="onValorAtualizadoNoContador($event)"
+</app-exercicio-contador>
+<hr>
+
 <app-diretiva-ngif></app-diretiva-ngif>
